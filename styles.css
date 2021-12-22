@@ -109,7 +109,7 @@ h1 {
 }
 
 .plan-anual a {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   color: #382ae1;
 }
@@ -137,3 +137,24 @@ footer {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+
+/* @media (max-width: 375px){
+  body{
+    background-color: red;
+  }
+
+  img {
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+  }
+  
+  .fundo-branco {
+    margin-top: -0.2rem;
+    background-color: white;
+    width: 280px;
+    height: 480px;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+  }
+} */
