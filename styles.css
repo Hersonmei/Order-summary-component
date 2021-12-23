@@ -145,7 +145,7 @@ footer {
   color: hsl(228, 45%, 44%);
 }
 
-/* 
+
 @media (max-width: 375px){
   body{
     height: 500px;
@@ -179,4 +179,4 @@ footer {
     bottom: -30px;
   }
   
-} */
+} 
