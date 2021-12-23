@@ -43,6 +43,7 @@ h1 {
   width: 75%;
   margin: auto;
   margin-bottom: 20px;
+  color: #777;
 }
 
 .plan-anual {
@@ -139,22 +140,29 @@ footer {
 }
 
 
-/* @media (max-width: 375px){
-  body{
-    background-color: red;
+@media (max-width: 455px){
+  section{
+    width: 330px;
   }
 
-  img {
+  .woman-dancing img {
     border-top-left-radius: 17px;
     border-top-right-radius: 17px;
+    width: 100%;
+
   }
   
   .fundo-branco {
-    margin-top: -0.2rem;
-    background-color: white;
-    width: 280px;
-    height: 480px;
-    border-bottom-left-radius: 17px;
-    border-bottom-right-radius: 17px;
+    width: 100%;
+    height: 470px;
   }
-} */
+
+  .plan-anual{
+    padding: 0.4rem 0.5rem;
+  }
+
+  .button1{
+    padding: 1rem 3.9rem;
+  }
+  
+}
