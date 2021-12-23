@@ -140,7 +140,11 @@ footer {
 }
 
 
-@media (max-width: 455px){
+@media (max-width: 375px){
+  body{
+    height: 500px;
+  }
+
   section{
     width: 330px;
   }
@@ -154,7 +158,7 @@ footer {
   
   .fundo-branco {
     width: 100%;
-    height: 470px;
+    height: 440px;
   }
 
   .plan-anual{
