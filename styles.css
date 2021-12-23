@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-image: url(./images/pattern-background-desktop.svg);
   background-repeat: no-repeat;
@@ -127,6 +131,7 @@ h1 {
 .plan-anual a:active {
   color: #9890f0;
 }
+
 footer {
   position: absolute;
   bottom: 0;
@@ -168,6 +173,10 @@ footer {
 
   .button1{
     padding: 1rem 3.9rem;
+  }
+
+  footer {
+    bottom: -30px;
   }
   
 }
